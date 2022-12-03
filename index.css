@@ -1,0 +1,88 @@
+html{
+ box-sizing: border-box;
+ font-size: 100%;
+}
+body{
+ margin: 0;
+ padding: 0;
+ background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+h1{
+ font-size: 1rem;
+  margin-top: -1vh;
+  color: hsl(0, 0%, 100%);
+}
+.main{
+ border-radius: 3%;
+ width: 45vw;
+ height: 75vh;
+ background-color: hsl(216, 50%, 16%);
+
+}
+#cube{
+ width: 90%;
+ height: 50%;
+ margin: 5%;
+ border-radius: 3%;
+}
+.eye{
+ visibility: hidden;
+ position: absolute;
+ top: 30vh;
+ left: 45vw;
+}
+#cube:hover{
+ cursor: pointer;
+
+}
+.line{
+ margin-left: 4%;
+ margin-bottom: 15px;
+ width: 90%;
+ height: 1px;
+ background-color: hsl(215, 32%, 27%);
+}
+.content{
+ margin-left: 2vw;
+ margin-bottom: 2vh;
+}
+#eth{
+ margin-right: 10vw;
+ position: relative;
+ top: -0.4vh;
+ color: hsl(178, 100%, 50%);
+}
+#day{
+ position: relative;
+ top: -0.4vh;
+ color: hsl(215, 51%, 70%);
+}
+#profile{
+width: 30px;
+margin-left: 2vw;
+}
+.creator{
+ display: inline-block;
+position: relative;
+top: -1vh;
+color: hsl(215, 51%, 70%);
+}
+.name{
+  color: hsl(0, 0%, 100%);
+}
+.caner{
+ color: hsl(215, 51%, 70%);
+}
+.name:hover{
+ color: hsl(178, 100%, 50%);
+ cursor: pointer;
+}
+.hov:hover{
+ color: hsl(178, 100%, 50%);
+ cursor: pointer;
+}
